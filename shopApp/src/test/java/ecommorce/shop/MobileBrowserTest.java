@@ -21,7 +21,7 @@ public class MobileBrowserTest extends MobileBrowserTestBaseClass{
 		((JavascriptExecutor)driver).executeScript("window.scrollBy(0,1000)", "");
 		String text = driver.findElement(By.cssSelector("a[href*='products/3']")).getText();
 		Assert.assertEquals(text, "Devops");
-		
+		System.out.println("hello world!");
 		
 		
 		
