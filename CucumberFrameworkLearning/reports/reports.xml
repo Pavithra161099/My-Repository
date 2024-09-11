@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="245.833682">
+    <testcase classname="Add product to cart in amazon" name="Add product to cart" time="34.309269">
+        <failure message="org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div role=&quot;button&quot; aria-label=&quot;Watch now&quot; tabindex=&quot;-1&quot; title=&quot;Watch now&quot; class=&quot;adsOverlayClick--1eVwk persistent--Pt2B3&quot; data-testid=&quot;OverlayClick&quot; data-csa-c-action=&quot;ingress&quot; data-csa-c-type=&quot;action&quot; data-csa-c-channel=&quot;Sonali's Recipes&quot; data-csa-c-title=&quot;Space Saving Home Storage &amp;amp; Organizers Under ₹500&quot; data-csa-c-id=&quot;v32p0-cup7u2-mgw6x2-nqm9nb&quot;&gt;&lt;/div&gt; is not clickable at point (247, 376). Other element would receive the click: &lt;span&gt;...&lt;/span&gt;&#10;  (Session info: chrome=128.0.6613.120)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'BLLT-5CD112M01J', ip: '192.168.16.67', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 128.0.6613.84 (606aa55c7d68..., userDataDir: C:\Users\RBCF3~1.PAV\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56288}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: dceecbe103d4307f310ec06866fa9cb7&#13;&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)&#13;&#10;&#9;at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)&#13;&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)&#13;&#10;&#9;at steps.LoginToAmazon.searchProduct(LoginToAmazon.java:39)&#13;&#10;&#9;at ✽.Search product &quot;Start Living Again&quot;(src\test\java\features\AddToCartInAmazon.feature:7)&#13;&#10;"><![CDATA[Given User should navigate to the amazon application........................passed
+And Search product "Start Living Again".....................................failed
+And Add to cart.............................................................skipped
+Then Cart badge should be updated...........................................skipped
+
+StackTrace:
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div role="button" aria-label="Watch now" tabindex="-1" title="Watch now" class="adsOverlayClick--1eVwk persistent--Pt2B3" data-testid="OverlayClick" data-csa-c-action="ingress" data-csa-c-type="action" data-csa-c-channel="Sonali's Recipes" data-csa-c-title="Space Saving Home Storage &amp; Organizers Under ₹500" data-csa-c-id="v32p0-cup7u2-mgw6x2-nqm9nb"></div> is not clickable at point (247, 376). Other element would receive the click: <span>...</span>
+  (Session info: chrome=128.0.6613.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BLLT-5CD112M01J', ip: '192.168.16.67', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 128.0.6613.84 (606aa55c7d68..., userDataDir: C:\Users\RBCF3~1.PAV\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56288}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dceecbe103d4307f310ec06866fa9cb7
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at steps.LoginToAmazon.searchProduct(LoginToAmazon.java:39)
+	at ✽.Search product "Start Living Again"(src\test\java\features\AddToCartInAmazon.feature:7)
+]]></failure>
+    </testcase>
+    <testcase classname="Add product to cart in amazon" name="Add product to cart 2" time="81.223943">
+        <failure message="org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div role=&quot;button&quot; aria-label=&quot;Watch now&quot; tabindex=&quot;-1&quot; title=&quot;Watch now&quot; class=&quot;adsOverlayClick--1eVwk persistent--Pt2B3&quot; data-testid=&quot;OverlayClick&quot; data-csa-c-action=&quot;ingress&quot; data-csa-c-type=&quot;action&quot; data-csa-c-channel=&quot;Sonali's Recipes&quot; data-csa-c-title=&quot;Space Saving Home Storage &amp;amp; Organizers Under ₹500&quot; data-csa-c-id=&quot;s2ylzf-b0liz0-b05zxx-cfksij&quot;&gt;&lt;/div&gt; is not clickable at point (247, 375). Other element would receive the click: &lt;span&gt;...&lt;/span&gt;&#10;  (Session info: chrome=128.0.6613.120)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'BLLT-5CD112M01J', ip: '192.168.16.67', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 128.0.6613.84 (606aa55c7d68..., userDataDir: C:\Users\RBCF3~1.PAV\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56453}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 92bc7385e8a7b08c83d65d847aa26bb4&#13;&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)&#13;&#10;&#9;at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)&#13;&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)&#13;&#10;&#9;at steps.LoginToAmazon.searchProduct(LoginToAmazon.java:39)&#13;&#10;&#9;at ✽.Search product &quot;Rich Dad Poor Dad : What the Rich Teach Their Kids About Money&quot;(src\test\java\features\AddToCartInAmazon.feature:7)&#13;&#10;"><![CDATA[Given User should navigate to the amazon application........................passed
+And Search product "Rich Dad Poor Dad : What the Rich Teach Their Kids About Money".failed
+And Add to cart.............................................................skipped
+Then Cart badge should be updated...........................................skipped
+
+StackTrace:
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div role="button" aria-label="Watch now" tabindex="-1" title="Watch now" class="adsOverlayClick--1eVwk persistent--Pt2B3" data-testid="OverlayClick" data-csa-c-action="ingress" data-csa-c-type="action" data-csa-c-channel="Sonali's Recipes" data-csa-c-title="Space Saving Home Storage &amp; Organizers Under ₹500" data-csa-c-id="s2ylzf-b0liz0-b05zxx-cfksij"></div> is not clickable at point (247, 375). Other element would receive the click: <span>...</span>
+  (Session info: chrome=128.0.6613.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BLLT-5CD112M01J', ip: '192.168.16.67', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 128.0.6613.84 (606aa55c7d68..., userDataDir: C:\Users\RBCF3~1.PAV\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56453}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 92bc7385e8a7b08c83d65d847aa26bb4
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at steps.LoginToAmazon.searchProduct(LoginToAmazon.java:39)
+	at ✽.Search product "Rich Dad Poor Dad : What the Rich Teach Their Kids About Money"(src\test\java\features\AddToCartInAmazon.feature:7)
+]]></failure>
+    </testcase>
+    <testcase classname="letcode application demo" name="Login should be success" time="78.810123">
+        <system-out><![CDATA[Given User should navigate to the application...............................passed
+And Click on login link.....................................................passed
+And User enter the username as "preethi161099@gmail.com"....................passed
+And User enter the password as "PaVi@161099"................................passed
+When User click the login button............................................passed
+Then login should be successful.............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="letcode application demo" name="Login should be fail" time="51.490347">
+        <system-out><![CDATA[Given User should navigate to the application...............................passed
+And Click on login link.....................................................passed
+And User enter the username as "pavithraraman2@gmail.com"...................passed
+And User enter the password as "PaVi".......................................passed
+When User click the login button............................................passed
+But login should fail.......................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
